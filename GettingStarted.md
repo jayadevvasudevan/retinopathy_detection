@@ -8,14 +8,14 @@ Grab a cup of coffee as these will take some time !
 ## Get, set and go :    
 * Download complete Project files using following command from git bash/ cmd (terminal):     
 ```
-git clone https://github.com/souravs17031999/Retinal_blindness_detection_Pytorch   
+git clone https://github.com/jayadevvasudevan/retinopathy_detection.git   
 
 ```   
 [Note you need mainly these four things to get started :]    
-> [blindness.py](https://github.com/souravs17031999/Retinal_blindness_detection_Pytorch/blob/master/blindness.py)
-> [model.py](https://github.com/souravs17031999/Retinal_blindness_detection_Pytorch/blob/master/model.py)
+> [blindness.py](https://github.com/jayadevvasudevan/retinopathy_detection/blob/main/blindness.py)
+> [model.py](https://github.com/jayadevvasudevan/retinopathy_detection/blob/main/model.py)
 > [classifier.pt](#)
-> [send_sms.py](https://github.com/souravs17031999/Retinal_blindness_detection_Pytorch/blob/master/send_sms.py)    
+> [send_sms.py](https://github.com/jayadevvasudevan/retinopathy_detection/blob/main/send_sms.py)    
 
 * Create a new database and table accordingly.    
 * Then, Go to 'blindness.py' file and change some configuration settings according to your database.
@@ -47,4 +47,4 @@ model = load_model('../Desktop/classifier.pt')
 * Your messaging service should  start and also you now see Message_Id printed on your terminal.    
 
 
-[Note : You can use sample images in the folder [sampleimages](https://github.com/souravs17031999/Retinal_blindness_detection_Pytorch/tree/master/sampleimages) which is taken from the original test dataset to test the system]
+[Note : You can use sample images in the folder [sampleimages](https://github.com/jayadevvasudevan/retinopathy_detection/tree/main/sampleimages) which is taken from the original test dataset to test the system]
